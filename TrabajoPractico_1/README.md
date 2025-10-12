@@ -2,7 +2,7 @@
 
 Primer trabajo práctico de la asignatura <Algoritmos y Estructuras de Datos>.
 Este trabajo práctico consta de los siguientes N proyectos:
-  - `Nombre de proyecto 1`
-  - `Nombre de proyecto 2`
-  -  ...
+  - `Problema 1: TAD Lista doblemente enlazada`
+  - `Problema 2: Juego de cartas "Guerra"`
+  - `Problema 3: algoritmos de ordenamiento`
 

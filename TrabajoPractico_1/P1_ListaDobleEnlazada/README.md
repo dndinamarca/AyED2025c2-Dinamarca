@@ -1,8 +1,6 @@
-# 🐍Nombre del proyecto (darle un nombre significativo) 
+# Lista Doblemente Enlazada
 
-Breve descripción del proyecto:
-
-Ejemplo: “Este es un script en el que se comparan algoritmos de ordenamiento. Permite [describir funcionalidades principales].
+TAD Lista doblemente enlazada que permite almacenar elementos de cualquier tipo que sean comparables (por ejemplo enteros, flotantes, strings)
 
 ---
 ## 🏗Arquitectura General
@@ -36,8 +34,7 @@ El informe completo está disponible en la carpeta [docs](./docs) del proyecto.
 ---
 ## 🙎‍♀️🙎‍♂️Autores
 
-- Apellido y Nombre del primer integrante
-- Apellido y Nombre del primer integrante
+- Dinamarca Daiana Nicole
 
 ---
 
