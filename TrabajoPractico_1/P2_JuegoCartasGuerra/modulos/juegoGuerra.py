@@ -5,7 +5,7 @@ Created on Thu Aug 11 09:32:57 2022
 @author: Cátedra de Algoritmos y Estructura de Datos
 """
 
-from modulos.mazo import Mazo, DequeEmptyError
+from mazo import Mazo, DequeEmptyError
 from carta import Carta
 import random
 
