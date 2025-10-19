@@ -19,11 +19,13 @@ class Mazo:
         "Agrega una carta al final del mazo (para ganar el turno)."
         self.cartas.agregar_al_final(carta)
 
-    def sacar_carta_arriba(self):
+    def sacar_carta_arriba(self, mostrar=False):
         "Saca y devuelve la carta del inicio del mazo. Lanza excepción si está vacío."
         if len(self.cartas) == 0:
             raise DequeEmptyError("El mazo está vacío")
         carta = self.cartas.extraer(0)  # Extrae la primera carta
+        if mostrar:
+            print(f"Carta retirada: {carta}") #
         return carta
 
     def __len__(self):

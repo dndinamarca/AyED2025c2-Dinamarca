@@ -1,44 +1,38 @@
-# 🐍Nombre del proyecto (darle un nombre significativo) 
+# 🃏 Juego de la Guerra — Problema 2 (Trabajo Práctico 1)
 
-Breve descripción del proyecto:
+Este proyecto implementa el **Juego de la Guerra**, un clásico juego de cartas utilizado aquí para ejercitar el uso de **listas doblemente enlazadas** y **programación orientada a objetos** en Python.
 
-Ejemplo: “Este es un script en el que se comparan algoritmos de ordenamiento. Permite [describir funcionalidades principales].
-
----
-## 🏗Arquitectura General
-
-Explica brevemente cómo está organizado el código (funciones y/o clases)
-
-Las gráficas de los resultados están disponible en la carpeta [data](./data) del proyecto.
-
-El informe completo está disponible en la carpeta [docs](./docs) del proyecto.
+El código modela las clases necesarias para representar cartas, mazos y la lógica del juego, junto con un conjunto de **tests unitarios** que verifican su correcto funcionamiento.
 
 ---
+
+## 🏗 Arquitectura General
+
+El código está organizado en módulos dentro del directorio `P2_JuegoCartasGuerra/`
+
+Cada clase encapsula su propia funcionalidad:
+- **Carta**: representa una carta del mazo con su número y palo.
+- **Mazo**: maneja una colección de cartas mediante una lista doblemente enlazada.
+- **JuegoGuerra**: implementa las reglas del juego y la interacción entre dos jugadores.
+- **ListaDobleEnlazada**: estructura de datos reutilizada del Problema 1.
+
+Los tests provistos por la cátedra se encuentran en la carpeta `tests` y fueron diseñados con el módulo `unittest`.
+
+---
+
 ## 📑Dependencias
 
 1. **Python 3.x**
-2. **matplotlib** (`pip install matplotlib`)
-3. listar dependencias principales
-4. Dependencias listadas en requierements.txt
+2. No requiere librerías externas (solo módulos estándar de Python).
+3. Tests ejecutados con el módulo integrado `unittest`.
 
 ---
+
 ## 🚀Cómo Ejecutar el Proyecto
+
 1. **Clonar o descargar** el repositorio.
 
-2. **Crear y activar** un entorno virtual.
-
-3. **Instalar las dependencias**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   El archivo `requirements.txt` se encuentran en la carpeta [deps](./deps) del proyecto.
-
----
 ## 🙎‍♀️🙎‍♂️Autores
 
-- Apellido y Nombre del primer integrante
-- Apellido y Nombre del primer integrante
+Dinamarca, Daiana Nicole
 
----
-
-> **Consejo**: Mantén el README **actualizado** conforme evoluciona el proyecto, y elimina (o añade) secciones según necesites. Esta plantilla es sólo un punto de partida general.
