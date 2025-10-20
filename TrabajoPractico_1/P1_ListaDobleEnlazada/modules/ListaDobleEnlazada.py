@@ -151,3 +151,49 @@ class ListaDobleEnlazada:
         while actual:
             yield actual.dato
             actual = actual.siguiente
+
+            
+if __name__ == "__main__":
+    print("=== Prueba de la Lista Doble Enlazada ===\n")
+
+    lista = ListaDobleEnlazada()
+    print("Agregando elementos al final: 10, 20, 30")
+    lista.agregar_al_final(10)
+    lista.agregar_al_final(20)
+    lista.agregar_al_final(30)
+
+    print("Contenido actual:", [x for x in lista])
+
+    print("\nAgregando elemento al inicio: 5")
+    lista.agregar_al_inicio(5)
+    print("Contenido actual:", [x for x in lista])
+
+    print("\nInsertando 15 en posición 2")
+    lista.insertar(15, 2)
+    print("Contenido actual:", [x for x in lista])
+
+    print("\nExtrayendo posición 1:", lista.extraer(1))
+    print("Contenido actual:", [x for x in lista])
+
+    print("\nInvirtiendo lista...")
+    lista.invertir()
+    print("Contenido actual:", [x for x in lista])
+
+    print("\nCopiando lista...")
+    copia = lista.copiar()
+    print("Copia:", [x for x in copia])
+
+    print("\nConcatenando con otra lista [100, 200]")
+    otra = ListaDobleEnlazada()
+    otra.agregar_al_final(100)
+    otra.agregar_al_final(200)
+    lista.concatenar(otra)
+    print("Lista concatenada:", [x for x in lista])
+
+    print("\nProbando operador + con [300, 400]")
+    otra2 = ListaDobleEnlazada()
+    otra2.agregar_al_final(300)
+    otra2.agregar_al_final(400)
+    nueva = lista + otra2
+    print("Lista original:", [x for x in lista])
+    print("Nueva lista:", [x for x in nueva])
